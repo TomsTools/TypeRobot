@@ -20,7 +20,7 @@
 
   <groupId>com.github.meshter.textrobot</groupId>
   <artifactId>text-robot</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
 
   <name>Simple text robot to automate keystrokes from text in a configuration file</name>
 
