@@ -20,7 +20,7 @@
 
   <groupId>com.github.meshter.textrobot</groupId>
   <artifactId>text-robot</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <name>Simple text robot to automate keystrokes from text in a configuration file</name>
 
@@ -33,6 +33,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>github-tt</id>
+      <name>Toms's Tools Github Reposiotory</name>
+      <url>https://maven.pkg.github.com/tomstools/typerobot</url>      
+    </repository>
+  </distributionManagement>
 
   <build>
     <plugins>
